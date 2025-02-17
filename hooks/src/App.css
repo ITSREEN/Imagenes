@@ -36,6 +36,7 @@ li{
   gap: 10px;
 }
 img{
+  background-color:rgba(31, 70, 64, 0.856);
   width: 200px;
   height: 200px;
   border: 1px solid;
