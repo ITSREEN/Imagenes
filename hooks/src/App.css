@@ -45,6 +45,8 @@ img{
 }
 section{
   border: 1px solid;
+  display: grid;
+  grid-template-columns: repeat(2,50%);
   box-shadow: 0 0 5px 2px cyan;
   border-radius: 10px;
 }
