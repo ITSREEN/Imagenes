@@ -6,7 +6,7 @@ function App () {
   const {datos, error} = Renderizardatos('https://jsonplaceholder.typicode.com/photos');
   
   // Limitar los datos a los primeros 10 elementos
-  const datosLimitados = datos?.slice(0, 10);
+  const datosLimitados = datos?.slice(0, 5);
   
   return (
     <div className="App">
