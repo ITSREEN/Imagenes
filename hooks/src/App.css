@@ -37,8 +37,8 @@ li{
 }
 img{
   background-color:rgba(31, 70, 64, 0.856);
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border: 1px solid;
   border-radius: 10px;
   box-shadow: 0 0 5px 2px cyan;
@@ -46,7 +46,7 @@ img{
 section{
   border: 1px solid;
   display: grid;
-  grid-template-columns: repeat(2,50%);
+  grid-template-columns: repeat(5, 1fr);
   box-shadow: 0 0 5px 2px cyan;
   border-radius: 10px;
 }
