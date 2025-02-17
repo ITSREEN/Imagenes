@@ -10,7 +10,8 @@ function App () {
   
   return (
     <div className="App">
-      <h1>Consumiendo Apis</h1>
+        <h1>Consumiendo Apis</h1>
+      <section>
       {datosLimitados?.map(user => (
         <li key={user.url}>
           <p>{user.title}</p>
@@ -18,7 +19,8 @@ function App () {
           <img src={user.thumbnailUrl} alt={user.title} />
         </li>
       ))}
-      {error && <p>Hubo un error al cargar los datos: {error + ""}</p>}
+      {error && <p>Hubo un error al cargar los datos: {error + ""}</p>} 
+      </section>
     </div>
   )
 }
