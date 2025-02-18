@@ -43,6 +43,10 @@ img{
   border-radius: 10px;
   box-shadow: 0 0 5px 2px cyan;
 }
+img:hover{
+  cursor: pointer;
+  scale: 0.9;
+}
 section{
   border: 1px solid;
   display: grid;
